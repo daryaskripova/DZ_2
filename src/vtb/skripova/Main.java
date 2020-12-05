@@ -29,6 +29,7 @@ public class Main {
             hour=sec/3600;
             System.out.println("часы=");
             System.out.println(hour);
+            System.out.println(" ");
         }
     }
 }
