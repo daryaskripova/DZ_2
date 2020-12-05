@@ -30,6 +30,7 @@ public class Main {
             System.out.println("часы=");
             System.out.println(hour);
             System.out.println(" ");
+            System.out.println(" ");
         }
     }
 }
