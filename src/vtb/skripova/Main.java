@@ -14,10 +14,11 @@ public class Main {
         }
 
         //зарплата на руки
-        {int zarplata;
+        {double zarplata;
             double ruki;
+            double ndfl=0.13;
             zarplata=184123;
-            ruki=zarplata-zarplata*0.13;
+            ruki=zarplata-zarplata*ndfl;
             System.out.println("зарплата на руки=");
             System.out.println(ruki);
             System.out.println(" ");
@@ -26,7 +27,8 @@ public class Main {
         //секунды в часы
         {double sec=1800;
             double hour;
-            hour=sec/3600;
+            double sechour=3600;
+            hour=sec/sechour;
             System.out.println("часы=");
             System.out.println(hour);
         }
